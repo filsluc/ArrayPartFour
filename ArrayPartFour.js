@@ -1,10 +1,15 @@
 function total(arr) {
-    
+        return arr.map(function(object){
+          return num.num;
+        }};
  }
  
  console.log(total([1,2,3]));
 
  function stringConcat(arr) {
+    return arr.map(function(object){
+        return num.stringConcat();
+      }};
     
  }
  
@@ -12,7 +17,8 @@ function total(arr) {
 
  
 function totalVotes(arr) {
-   
+   return arr.map(function){
+       return num.name();
 }
 
 var voters = [
@@ -32,7 +38,8 @@ var voters = [
 console.log(totalVotes(voters)); 
 
 function shoppingSpree(arr) {
-    
+    return arr.map(function){
+        return num.shoppingSpree();
  }
  
  var wishlist = [
@@ -46,7 +53,9 @@ function shoppingSpree(arr) {
  console.log(shoppingSpree(wishlist));
 
  function flatten(arr) {
-    
+    return arr.map(function){
+        return num.arrays();
+    }
  }
  
  var arrays = [
@@ -73,7 +82,8 @@ function shoppingSpree(arr) {
 ];
 
 function voterResults(arr) {
-   // your code here
+    return arr.map(function){
+        return num.name();
 }
 
 console.log(voterResults(voters)); 
@@ -85,5 +95,3 @@ console.log(voterResults(voters));
   numOldVotesPeople: 3,
   numOldsPeople: 4
 }
-
- 
